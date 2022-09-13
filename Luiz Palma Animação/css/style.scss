@@ -1,0 +1,56 @@
+@keyframes mecherPersonagens {
+        
+}
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url(../assets/images/fundo_mar.jpg) blue no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 5px solid red;
+    
+    height: 500px;
+    width: 700px;
+
+    display: flex;
+    align-items: center;
+    
+
+    .jogador {
+        height: 70px;
+        width: 100px;
+        background: url(../assets/images/jogador.gif) no-repeat;
+        background-size: 100%;
+        border: 3px solid blue;
+        margin: auto;
+    }
+
+    .inimigo {
+        height: 70px;
+        width: 100px;
+        background: url(../assets/images/inimigo_canudoVermelho.PNG) no-repeat;
+        background-size: 100%;
+        border: 3px solid red;
+        transform: scaleX(-1);
+        position: relative;
+        right: ;
+    }
+
+    
+
+}
